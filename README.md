@@ -12,6 +12,15 @@ I’m using these challenges to strengthen my **Linux**, **networking**, and **p
 **Commands Practiced:**  
 ```bash
 ssh username@hostname -p port
-
+```
+Bandit 1 → Bandit 2
+Concept Learned: Navigating files and reading text content.
+Commands Practiced:
 ```bash
+ls
 cd
+cat filename
+```
+Bandit 2 → Bandit 3
+Concept Learned: Finding and accessing hidden files in Linux.
+Commands Practiced:
