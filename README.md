@@ -13,14 +13,39 @@ I’m using these challenges to strengthen my **Linux**, **networking**, and **p
 ```bash
 ssh username@hostname -p port
 ```
-Bandit 1 → Bandit 2
-Concept Learned: Navigating files and reading text content.
-Commands Practiced:
+
+### Bandit 1 → Bandit 2
+**Concept Learned:** How to connect to a remote server using SSH.  
+**Commands Practiced:** 
 ```bash
 ls
 cd
 cat filename
 ```
-Bandit 2 → Bandit 3
-Concept Learned: Finding and accessing hidden files in Linux.
-Commands Practiced:
+
+### Bandit 2 → Bandit 3
+**Concept Learned:** How to connect to a remote server using SSH.  
+**Commands Practiced:** 
+```bash
+ls
+cd
+cat filename
+```
+
+### Bandit 3 → Bandit 4
+**Concept Learned:** How to connect to a remote server using SSH.  
+**Commands Practiced:** 
+```bash
+ls
+cd
+cat filename
+```
+
+### Bandit 4 → Bandit 5
+**Concept Learned:** How to connect to a remote server using SSH.  
+**Commands Practiced:** 
+```bash
+ls
+cd
+cat filename
+```
