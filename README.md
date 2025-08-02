@@ -8,14 +8,16 @@ I’m using these challenges to strengthen my **Linux**, **networking**, and **p
 ## 🎯 Bandit Progress
 
 ### Bandit 0 → Bandit 1
-**Concept Learned:** How to connect to a remote server using SSH.  
+**Concept Learned:** How to connect to a remote server using SSH.
+**Notes:**
 **Commands Practiced:**  
 ```bash
 ssh username@hostname -p port
 ```
 
 ### Bandit 1 → Bandit 2
-**Concept Learned:** How to connect to a remote server using SSH.  
+**Concept Learned:** How to connect to a remote server using SSH.
+**Notes:**
 **Commands Practiced:** 
 ```bash
 ls
@@ -24,7 +26,8 @@ cat filename
 ```
 
 ### Bandit 2 → Bandit 3
-**Concept Learned:** How to connect to a remote server using SSH.  
+**Concept Learned:** How to connect to a remote server using SSH.
+**Notes:**
 **Commands Practiced:** 
 ```bash
 ls
@@ -33,7 +36,8 @@ cat filename
 ```
 
 ### Bandit 3 → Bandit 4
-**Concept Learned:** How to connect to a remote server using SSH.  
+**Concept Learned:** How to connect to a remote server using SSH. 
+**Notes:**
 **Commands Practiced:** 
 ```bash
 ls
@@ -43,6 +47,7 @@ cat filename
 
 ### Bandit 4 → Bandit 5
 **Concept Learned:** How to connect to a remote server using SSH.  
+**Notes:**
 **Commands Practiced:** 
 ```bash
 ls
