@@ -8,16 +8,16 @@ I’m using these challenges to strengthen my **Linux**, **networking**, and **p
 ## 🎯 Bandit Progress
 
 ### Bandit 0 → Bandit 1
-**Concept Learned:** How to connect to a remote server using SSH.
-**Notes:**
-**Commands Practiced:**  
+**Concept Learned:** How to connect to a remote server using SSH.  
+**Notes:** Learned to log in using the `ssh` command with username, hostname, and a custom port.  
+**Commands Practiced:**
 ```bash
 ssh username@hostname -p port
 ```
 
 ### Bandit 1 → Bandit 2
-**Concept Learned:** How to connect to a remote server using SSH.
-**Notes:**
+**Concept Learned:** How to connect to a remote server using SSH.  
+**Notes:** abc.  
 **Commands Practiced:** 
 ```bash
 ls
