@@ -12,3 +12,6 @@ I’m using these challenges to strengthen my **Linux**, **networking**, and **p
 **Commands Practiced:**  
 ```bash
 ssh username@hostname -p port
+
+```bash
+cd
