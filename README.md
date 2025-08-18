@@ -165,3 +165,33 @@ base64 -d filename
 
 ```
 
+### Bandit 11 → Bandit 12
+**Concept Learned:**   ROT13 cipher decoding .
+
+**Notes:** 
+- ROT13 is a simple substitution cipher each letter is shifted by 13 positions in the alphabet.
+- Applying ROT13 twice returns the original text.
+- `tr` command performs substitution.
+
+**Commands Practiced:** 
+```bash
+ls -la
+cat filename | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+```
+
+**Commands Explained:**  
+
+- *Why Does This Mapping Work?*  
+  - `N-ZA-M` maps uppercase letters `A-Z` by wrapping “N” to “A”.  
+  - `n-za-m` does the same for lowercase letters `a-z`.  
+
+- *Why NOT Use* `A-MN-Za-mn-z`?  
+  - It doesn’t cover all 26 letters in order, causing mismatch in position mapping.  
+  - The second set in `tr` must exactly match the length and order of the first set to work properly.
+
+- **Example:**  
+  - `Hello, World!` becomes `Uryyb, Jbeyq!`
+
+ 
+ 
