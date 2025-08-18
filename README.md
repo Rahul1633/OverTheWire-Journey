@@ -198,8 +198,8 @@ cat filename | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ### Bandit 12 → Bandit 13
 **Concept Learned:**   File compression/decompression.
 
-**Notes:** 
--File was repeatedly compressed in different formats
+**Notes:**   
+-File was repeatedly compressed in different formats.
 - Use `file` command each time to identify type, then extracted.
 
 **Commands Practiced:** 
@@ -215,5 +215,42 @@ tar -x -v -f filename
 cat filename
 ```
 
+### Bandit 13 → Bandit 14
+**Concept Learned:**  Using SSH with private keys.
+
+**Notes:** 
+-`-i`option specifies the private key for login.
+
+**Commands Practiced:** 
+```bash
+ls -la
+ssh hostname@username -p port -i sshprivatekey
+cat filename
+```
 
  
+### Bandit 14 → Bandit 15
+**Concept Learned:**  Using `nc` (netcat) to connect to ports.
+
+**Notes:**   
+-`nc` is a command line utility which lets you read and write data across network connections using the TCP or UDP protocols.
+
+
+**Commands Practiced:** 
+```bash
+cat filename | nc hostname port
+```
+
+**Commands Explained:**  
+
+- *why use netcat here?*  
+  - Netcat allows you to send data directly to a port, simulating how applications talk to services over a network.
+  
+- *What can netcat do?* 
+  - Read/write across local or remote network ports.  
+  - Scan open ports.
+  - Transfer files
+  - Debug network services.
+  - Set up listeners for incoming connections or connect out as a client.
+  
+  
