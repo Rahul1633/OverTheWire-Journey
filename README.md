@@ -193,5 +193,27 @@ cat filename | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 - **Example:**  
   - `Hello, World!` becomes `Uryyb, Jbeyq!`
 
- 
+
+
+### Bandit 12 → Bandit 13
+**Concept Learned:**   File compression/decompression.
+
+**Notes:** 
+-File was repeatedly compressed in different formats
+- Use `file` command each time to identify type, then extracted.
+
+**Commands Practiced:** 
+```bash
+mkdir
+cd
+cp
+mv
+xxd -r filename > newfile
+gzip -d filename
+bzip2 -d filename
+tar -x -v -f filename
+cat filename
+```
+
+
  
