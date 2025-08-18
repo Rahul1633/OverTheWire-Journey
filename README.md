@@ -168,7 +168,7 @@ base64 -d filename
 ### Bandit 11 → Bandit 12
 **Concept Learned:**   ROT13 cipher decoding .
 
-**Notes:** 
+**Notes:**   
 - ROT13 is a simple substitution cipher each letter is shifted by 13 positions in the alphabet.
 - Applying ROT13 twice returns the original text.
 - `tr` command performs substitution.
@@ -198,9 +198,9 @@ cat filename | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ### Bandit 12 → Bandit 13
 **Concept Learned:**   File compression/decompression.
 
-**Notes:**   
--File was repeatedly compressed in different formats.
+**Notes:**  
 - Use `file` command each time to identify type, then extracted.
+- File was repeatedly compressed in different formats.
 
 **Commands Practiced:** 
 ```bash
@@ -218,8 +218,8 @@ cat filename
 ### Bandit 13 → Bandit 14
 **Concept Learned:**  Using SSH with private keys.
 
-**Notes:** 
--`-i`option specifies the private key for login.
+**Notes:**
+- `-i`option specifies the private key for login.
 
 **Commands Practiced:** 
 ```bash
@@ -233,7 +233,7 @@ cat filename
 **Concept Learned:**  Using `nc` (netcat) to connect to ports.
 
 **Notes:**   
--`nc` is a command line utility which lets you read and write data across network connections using the TCP or UDP protocols.
+- `nc` is a command line utility which lets you read and write data across network connections using the TCP or UDP protocols.
 
 
 **Commands Practiced:** 
